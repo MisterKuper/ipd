@@ -1,0 +1,22 @@
+.welcome-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid var(--gray-color);
+}
+
+.greating {
+ font-size: 18px;
+ font-weight: 600;
+}
+
+.greating span {
+ font-size: 24px;
+ color: var(--primary-color);
+}
+
+.user-icon {
+    width: 50px;
+    height: auto;
+}

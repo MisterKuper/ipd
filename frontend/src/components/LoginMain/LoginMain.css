@@ -1,0 +1,111 @@
+@import '../../shared/colors.css';
+
+.login-main {
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+.top-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    max-width: 1200px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    max-width: 1200px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-frame-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.image-frame-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-image-front-right, .header-image-front-left {
+    width: 600px;
+    height: auto;
+    z-index: 3; 
+}
+
+.header-image-middle-right, .header-image-middle-left {
+    position: absolute;
+    width: 650px;
+    height: auto;
+    z-index: 2;
+}
+
+.header-image-back-right, .header-image-back-left {
+    position: absolute;
+    width: 600px;
+    height: auto;
+    z-index: 1;
+}
+
+.login-main-benefits, .login-main-games {
+    text-align: left;
+}
+
+.login-main-call-to-action {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.animated-container {
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+  
+.background-image {
+    position: absolute;
+    width: 400px;
+}
+  
+.mascot-container {
+    position: relative;
+    z-index: 2;
+    width: 400px;
+    height: auto;
+}
+  
+.mascot-image {
+    width: 100%;
+    height: 100%;
+}
+  
+.call-to-action-block .register-button {
+    margin-top: 100px;
+}
+
+.bottom-line {
+    background: var(--primary-color);
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}
